@@ -67,6 +67,7 @@ li button{
     text-transform: uppercase;
     transition: 0.3s;
     border: none;
+    padding: 10px;
 }
 
 /* li a:hover{
@@ -79,7 +80,6 @@ li button{
 li button:hover{
     color: white;
     background-color: #8257E6;
-    padding: 0 10px;
     border-radius: 5px;
 }
 
