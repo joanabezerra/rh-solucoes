@@ -1,2 +1,2 @@
-# http://joanarudines.github.io/RH-Solucoes
+# http://joanarudines.github.io/rh-solucoes
 Site voltado para cálculos de RH.
