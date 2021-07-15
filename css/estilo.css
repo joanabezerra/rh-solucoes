@@ -49,19 +49,37 @@ ul li{
     text-align: center;
 }
 
-li a{
+/* li a{
     text-decoration: none;
     text-align: center;
     color: #8257E6;
     font-size: 20px;
     text-transform: uppercase;
     transition: 0.3s;
+} */
+
+li button{
+    text-decoration: none;
+    text-align: center;
+    color: #8257E6;
+    background-color: #201C31;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border: none;
 }
 
-li a:hover{
+/* li a:hover{
     color: white;
     background-color: #8257E6;
     padding: 7px;
+    border-radius: 5px;
+} */
+
+li button:hover{
+    color: white;
+    background-color: #8257E6;
+    padding: 0 10px;
     border-radius: 5px;
 }
 

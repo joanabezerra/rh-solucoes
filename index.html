@@ -13,22 +13,26 @@
     <div id="container">
         <header class="header">
             <div class="titulo">
-                <h1>O RH Soluções, tem as melhores respostas para você!!</h1>
+                <h1>O RH Soluções, tem as melhores respostas para você!!!</h1>
             </div>
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="#quem-somos">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#calculos">Cálculos</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-
+            <div class="menu-mobile">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <button onclick="go('#quem-somos')">Sobre</button>
+                            <!-- <a href="#quem-somos">Sobre</a> -->
+                        </li>
+                        <li>
+                            <button onclick="go('#calculos')">Cálculos</button>
+                            <!-- <a href="#calculos">Cálculos</a> -->
+                        </li>
+                        <li>
+                            <button onclick="go('#contato')">Contato</button>
+                            <!-- <a href="#contato">Contato</a> -->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <section id="quem-somos">
@@ -130,6 +134,11 @@
         <footer>
             <p>Copyright © fastfashion.com - Desenvolvido por: Joana Marques</p>
         </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/funcionalidades.js"></script>
+        <script src="./teste.js"></script>
+
     </div>
 
 </body>
