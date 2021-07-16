@@ -26,8 +26,9 @@ h1{
     color: #04DB64;
     width: 70%;
     margin: auto;
-    padding: 100px 0;
-    font-size: 40px;  
+    padding: 120px 0;
+    font-size: 50px;
+    text-align: center;
 }
 
 nav{
@@ -35,6 +36,15 @@ nav{
     margin-top: -3px;
 }
 
+/* ----- Menu fixo ----- */
+
+.scrollPosition {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ----- Fim menu fixo ----- */
 ul{
     width: 70%;
     margin: auto;
@@ -86,10 +96,14 @@ li button:hover{
 #quem-somos{
     width: 70%;
     margin: auto;
+    padding-top: 60px;
+}
+
+.conteudo-somos {
     background-color: #9E83E0;
     border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    /* margin-top: 80px; */
+    margin-bottom: 20px;
     padding: 50px 0 10px;
 }
 
@@ -110,12 +124,13 @@ li button:hover{
 #calculos{
     width: 70%;
     margin: auto;
+    padding-top: 40px;
 }
 
 .card{
     background-color: #9E83E0;
     padding: 50px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     border-radius: 5px;
 }
 
@@ -130,11 +145,16 @@ li button:hover{
     margin-bottom: 15px;
 }
 
+.card-2 {
+    margin-top: 60px;
+}
+
 #contato{
     text-align: center;
     margin: auto;
     width: 70%;
     padding-bottom: 80px;
+    padding-top: 74px;
 }
 
 #contato address{
